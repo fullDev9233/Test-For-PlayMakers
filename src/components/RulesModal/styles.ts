@@ -12,8 +12,16 @@ export const RulesModalContainer = styled(Dialog)(({ theme }) => ({
       right: 25,
     },
 
+    img: {
+      width: 420,
+    },
+
     [theme.breakpoints.down('sm')]: {
       padding: '40px 20px',
+
+      img: {
+        width: '100%',
+      },
     },
   },
 }))
